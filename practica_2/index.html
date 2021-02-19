@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
+    <script type="module">
+      let root = document.getElementById("root");
+      let span1 = React.createElement("span", {}, "Hello");
+      let span2 = React.createElement("span", {}, "World");
+
+      const tree = React.createElement("p", {}, [span1, " ", span2]);
+
+      ReactDOM.render(tree, root);
+    </script>
+  </body>
+</html>

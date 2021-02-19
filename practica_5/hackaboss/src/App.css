@@ -1,0 +1,45 @@
+.chatRoom {
+  border: 1px solid black;
+  padding: 5px;
+  width: 500px;
+  background-color: rgb(111, 142, 190);
+}
+
+.chatRoomHeader {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  background-color: rgb(185, 186, 195);
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: small;
+}
+
+.message {
+  border: 1px dotted black;
+  background-color: rgb(185, 186, 195);
+  display: flex;
+  padding: 5px;
+  font-size: small;
+  margin-top: 10px;
+}
+
+.messageBody {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 10px;
+  width: 600px;
+}
+
+.avatar {
+  background-color: white;
+  border: 1px dashed black;
+  border-radius: 4px;
+  padding: 4px;
+  margin-right: 5px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.avatar img {
+  max-width: 100px;
+}
